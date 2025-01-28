@@ -1,13 +1,4 @@
-p {
-color: red;
-text-align:right;
-}
-h1{
+#h5{
     color: blue;
-}
-h2 {
-    color: brown;
-}
-h3 {
-    color: chartreuse;
+    background-color: brown;
 }
