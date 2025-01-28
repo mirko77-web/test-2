@@ -1,6 +1,28 @@
 h2 {
     font-size: 30px;
 }
-h3 {
+h2{
+    font-size: 80px;
+    color: blue;
+    }
+#colors1{
 font-size: 30px;
+color: yellow;
+}
+
+#colors2{
+font-size: 100px;
+color: red;
+}
+#logoname {
+    font-size: 3opx;
+    color: blue;
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
