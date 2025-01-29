@@ -1,3 +1,4 @@
+
 h2 {
     font-size: 30px;
 }
@@ -20,26 +21,20 @@ h2 {
 #logoname {
     font-size: 3opx;
     color: blue;
-    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-style: oblique;
 font: size 200px;
 }
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+p {
+    text-align: right;
 }
+
+
 *{
-    text-align: center;
     color: blue;
 }
 h2,h3,p {
 color: red;
-text-align: start;
 font-family: sans-serif;
     
 }
@@ -47,7 +42,7 @@ font-family: sans-serif;
         color:blue; 
         transition: color 0.3s ease;
         cursor: pointer;
-        
+
     }
 
     .hover-effect:hover {
