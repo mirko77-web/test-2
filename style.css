@@ -1,28 +1,39 @@
 h2 {
     font-size: 30px;
 }
-h2{
+
+h2 {
     font-size: 80px;
     color: blue;
-    }
-#colors1{
-font-size: 30px;
-color: yellow;
 }
 
-#colors2{
-font-size: 100px;
-color: red;
+#colors1 {
+    font-size: 30px;
+    color: yellow;
 }
+
+#colors2 {
+    font-size: 100px;
+    color: red;
+}
+
 #logoname {
     font-size: 3opx;
     color: blue;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: oblique;
+font: size 200px;
 }
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+}
+*{
+    text-align: center;
+    color: blue;
 }
