@@ -37,3 +37,9 @@ body {
     text-align: center;
     color: blue;
 }
+h2,h3,p {
+color: red;
+text-align: start;
+font-family: sans-serif;
+    
+}
