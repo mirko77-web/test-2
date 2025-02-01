@@ -63,3 +63,8 @@ font-family: sans-serif;
     .hover-effect:hover {
         color: red;
     }
+ul li:last-child {
+    color: red;
+    font-style: oblique;
+    flood-opacity:initial
+}
