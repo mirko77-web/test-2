@@ -40,7 +40,7 @@ h2 {
 font-style: oblique;
 font: size 200px;
 }
-p {
+.city{
     text-align: right;
 }
 
@@ -48,7 +48,7 @@ p {
 *{
     color: blue;
 }
-h2,h3,p {
+h2,h3,{
 color: red;
 font-family: sans-serif;
     
