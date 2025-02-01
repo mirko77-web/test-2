@@ -77,3 +77,8 @@ p {
     font-family: monospace;
     border-color: darkblue;
 }
+
+ div:last-of-type{
+    color: blueviolet;
+    text-align: center;
+}
