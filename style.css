@@ -44,21 +44,11 @@ font: size 200px;
     text-align: right;
 }
 
-
-*{
-    color: blue;
-}
 h2,h3,{
 color: red;
 font-family: sans-serif;
     
 }
-.hover-effect {
-        color:blue; 
-        transition: color 0.3s ease;
-        cursor: pointer;
-
-    }
 
     .hover-effect:hover {
         color: red;
@@ -67,4 +57,7 @@ ul li:last-child {
     color: red;
     font-style: oblique;
     flood-opacity:initial
+}
+.asadecimali {
+    color: #FF0000;
 }
