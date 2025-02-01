@@ -61,3 +61,19 @@ ul li:last-child {
 .asadecimali {
     color: #FF0000;
 }
+.nomecolore {
+    color: red;
+}
+p {
+    color: #FF0000;
+}
+.puglia{
+    background-color:rgb(116, 447, 45);
+    font-family: monospace;
+    border-color: blue;
+}
+#città1 {
+    background-color: rgb(256, 247, 7);
+    font-family: monospace;
+    border-color: darkblue;
+}
