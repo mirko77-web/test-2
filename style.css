@@ -1,16 +1,14 @@
 .root {
-    --colore: #170606;
+padding: 30px;
 
 }
 h1 {
-    color: var(--#ff0000);
-    font-size: var(20px);
+    padding: var(30px);
+    padding: 30%;
 }
 p {
     color: var(--#ff0000)
     
+    
 }
 
-*{
-    color: #ff0000;
-}
