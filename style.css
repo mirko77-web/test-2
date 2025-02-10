@@ -8,13 +8,13 @@
 }
 .quadrato {
     position: relative;
-    width: 40%;
+    width: 60px;
     overflow: hidden;
     float: left;
 }
 .quadrato:before {
     content:"";
     display: block;
-    padding-top: 100%;
+    padding-top: 60px;
     background-color: blue;
 }
