@@ -21,3 +21,38 @@ div {
 li{
     display: inline-block;
 }
+
+p {
+    
+
+    border-width: 4px;
+    border-style: double;
+    border-color: green;
+}
+
+
+span1{
+    width: 20px;
+    height: 20px ;
+    display: inline;
+    border-width: 4px;
+    border-style: double;
+    border-color: green;
+}
+span2{
+    width: 20px;
+    height: 20px ;
+    display: inline-block;
+    border-width: 4px;
+    border-style: double;
+    border-color: green;
+    
+}
+span3{
+    width: 20px;
+    height: 20px ;
+    display: block;
+    border-width: 4px;
+    border-style: double;
+    border-color: green;
+}
