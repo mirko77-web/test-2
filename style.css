@@ -1,84 +1,20 @@
-h1 {
-    color: blue;
-}
- h2 {
-    color: red;
-}
-h3 {
-    color: yellow;
-}
-h4 {
-    color: violet;
-}
-h5 {
-    background-color: blueviolet;
-}
 
-h2 {
-    font-size: 30px;
+.quadrato {
+    padding: 0;
+    margin:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
 }
-
-h2 {
-    font-size: 30px;
-    color: blue;
+.quadrato {
+    position: relative;
+    width: 40%;
+    overflow: hidden;
+    float: left;
 }
-
-#colors1 {
-    font-size: 30px;
-    color: yellow;
-}
-
-#colors2 {
-    font-size: 30px;
-    color: red;
-}
-
-#logoname {
-    font-size: 3opx;
-    color: blue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-style: oblique;
-font: size 200px;
-}
-.city{
-    text-align: right;
-}
-
-h2,h3,{
-color: red;
-font-family: sans-serif;
-    
-}
-
-    .hover-effect:hover {
-        color: red;
-    }
-ul li:last-child {
-    color: red;
-    font-style: oblique;
-    flood-opacity:initial
-}
-.asadecimali {
-    color: #FF0000;
-}
-.nomecolore {
-    color: red;
-}
-p {
-    color: #FF0000;
-}
-.puglia{
-    background-color:rgb(116, 447, 45);
-    font-family: monospace;
-    border-color: blue;
-}
-#città1 {
-    background-color: rgb(256, 247, 7);
-    font-family: monospace;
-    border-color: darkblue;
-}
-
- div:last-of-type{
-    color: blueviolet;
-    text-align: center;
+.quadrato:before {
+    content:"";
+    display: block;
+    padding-top: 100%;
+    background-color: blue;
 }
