@@ -15,4 +15,5 @@ p {
 div {
     padding: 56px;
     margin: 20rem;
+    border:double;
 }
