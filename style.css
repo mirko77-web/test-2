@@ -17,3 +17,7 @@ div {
     margin: 20rem;
     border:double;
 }
+
+li{
+    display: inline-block;
+}
