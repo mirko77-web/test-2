@@ -1,15 +1,16 @@
-html{
-    font-size: 16px;
+.root {
+    --colore: #170606;
+
+}
+h1 {
+    color: var(--#ff0000);
+    font-size: var(20px);
+}
+p {
+    color: var(--#ff0000)
+    
 }
 
-
-
-.rem {
-
-font-size: 7rem;
-}
-
-
-.em {
-font-size: 7em;
+*{
+    color: #ff0000;
 }
