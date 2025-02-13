@@ -1,6 +1,26 @@
-img{
-    float: right;
+
+
+.column {
+    display: flex;
+    float: left;
+    width: 50%;
+    padding: 0 2%;
 }
-.p1 {
-    clear: both;
+
+.col1{
+    width: 33.33%;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.col2{
+    width: 33.33%;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.col3{
+    width: 33.33%;
+    text-align: center;
+    border: 1px solid red;
 }
