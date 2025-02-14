@@ -57,3 +57,13 @@ ul {
     text-align: center;
   
     }
+
+    .quadrato {
+
+        background-color: lightgrey;
+        width: 25px;
+        border: 15px solid rgb(247, 3, 3);
+        padding: 50px;
+        margin: 10px;
+      position:relative;
+    }
