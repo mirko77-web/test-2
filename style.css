@@ -96,5 +96,10 @@ ul {
   right: 10px;
   font-size: 30px;
   color: black;
-  
+
+}
+
+.container {
+  display: flex;
+ 
 }
