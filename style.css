@@ -147,6 +147,9 @@ ul {
   gap: 10px;
   background-color: rgb(128, 128, 128);
   padding: 10px;
+  grid-template-areas:
+    'myArea myArea . . .'
+    'myArea myArea . . .';
 }
 
 .cella{
@@ -155,4 +158,9 @@ ul {
   padding: 10px;
   font-size: 30px;
   text-align: center;
+
+}
+.cellaunita{
+  grid-area: myArea;
+  background-color: #ddd;
 }
