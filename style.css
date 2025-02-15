@@ -110,6 +110,7 @@ ul {
  
 }
 .elemento {
+  flex-grow: 1;
   width: 100px;
   height: 1oopx;
   display: flex;
@@ -118,4 +119,9 @@ ul {
   align-items: center;
   font-size: 18px;
  
+}
+.elemento3 {
+  flex-grow: 3;
+  background-color: #b80303;
+  
 }
