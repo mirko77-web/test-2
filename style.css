@@ -101,7 +101,7 @@ ul {
 
 .container {
   display: flex;
-  flex-direction: column-reverse;
+ flex-wrap: wrap;
 
   
  
@@ -114,17 +114,5 @@ ul {
   justify-content: center;
   align-items: center;
   font-size: 18px;
+ 
 }
-.elemento:nth-child(1)::before {
-  content: "1";
-  font-size: 20px;
-}
-.elemento:nth-child(2)::before{
-  content: "2";
-  font-size: 20px;
-} 
-.elemento:nth-child(3)::before{
-  content: "3";
-  font-size: 20px;
-} 
-
