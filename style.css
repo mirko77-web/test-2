@@ -121,7 +121,6 @@ ul {
  
 }
 .elemento3 {
-  flex-grow: 3;
   background-color: #b80303;
-  
+  flex-shrink: 1;
 }
