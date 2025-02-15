@@ -109,7 +109,7 @@ ul {
   
  
 }
-.elemento {
+.elemento1 {
   flex-grow: 1;
   width: 100px;
   height: 1oopx;
@@ -118,9 +118,24 @@ ul {
   justify-content: center;
   align-items: center;
   font-size: 18px;
- 
 }
+
+
+  .elemento2 {
+    width: 100px;
+    height: 1oopx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  
+ }
 .elemento3 {
   background-color: #b80303;
   flex-shrink: 1;
+}
+
+.elemento2-basis{
+  flex-basis: 150px;
+  background-color: rgb(14, 14, 14);
 }
