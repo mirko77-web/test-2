@@ -125,14 +125,15 @@ ul {
     width: 100px;
     height: 1oopx;
     display: flex;
-    justify-content: center;
-    align-items: center;
+  
     font-size: 18px;
+    align-self: self-end;
   
  }
 .elemento3 {
   background-color: #b80303;
   flex-shrink: 1;
+
 }
 
 .elemento2-basis{
