@@ -142,7 +142,7 @@ ul {
 }
 
 .contenitore{
-  display: grid;
+  align-items: center;
   display: grid;
   grid-template-columns: repeat(5, 1fr); 
   grid-template-rows: 1fr 2fr; 
@@ -179,3 +179,4 @@ ul {
   font-size: 30px;
   text-align: center;
 }
+
