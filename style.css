@@ -180,3 +180,40 @@ ul {
   text-align: center;
 }
 
+.calcolatrice{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    border: 1px solid #000;
+    border-radius: 15px;                 
+    overflow: hidden;     
+}
+
+.number{
+  border: 1px solid #000;
+    border-radius: 15px;                  
+    overflow: hidden;     
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.segni{
+    border-radius: 15px;                 
+    overflow: hidden;     
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid #d70c0c;
+  text-align: center;
+}
+.calcprimary{
+grid-column: span 3;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid #000;
+  text-align: center;
+  
+}
