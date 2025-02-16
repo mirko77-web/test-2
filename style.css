@@ -147,7 +147,7 @@ ul {
   grid-template-columns: repeat(5, 1fr); 
   grid-template-rows: 1fr 2fr; 
   width: 500px;
-  height: 200px;
+  height: 400px;
   gap: 10px;
   background-color: rgb(128, 128, 128);
   padding: 10px;
@@ -216,4 +216,10 @@ grid-column: span 3;
   border: 2px solid #000;
   text-align: center;
   
+}
+
+@media (max-width: 768px) {
+  body {
+      background-color: blue;
+  }
 }
