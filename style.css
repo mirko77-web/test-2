@@ -143,7 +143,11 @@ ul {
 
 .contenitore{
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(2, 1fr);   
+  width: 500px;
+  height: 200px;
   gap: 10px;
   background-color: rgb(128, 128, 128);
   padding: 10px;
