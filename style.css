@@ -151,6 +151,7 @@ ul {
   gap: 10px;
   background-color: rgb(128, 128, 128);
   padding: 10px;
+  max-width: 500px;  
  
 }
 
@@ -222,4 +223,13 @@ grid-column: span 3;
   body {
       background-color: blue;
   }
+}
+.contenitore {
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, 1fr);    
+  width: 100%; 
+  height: auto;
+}
+.cella {
+  font-size: 18px; 
 }
